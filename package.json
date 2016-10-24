@@ -1,56 +1,31 @@
 {
-  "name": "node-apk-parser",
-  "version": "0.2.3",
-  "description": "Extracts information from APK files.",
-  "keywords": [
-    "adb",
-    "adbkit",
-    "android",
-    "apk",
-    "manifest",
-    "AndroidManifest"
-  ],
-  "bugs": {
-    "url": "https://github.com/arthur-zhang/node-apk-parser/issues"
+  "name": "apk-parser",
+  "version": "1.0.0",
+  "description": "An Android APK parser for RequireJS",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
   },
-  "license": "Apache-2.0",
-  "author": {
-    "name": "Arthur Zhang",
-    "email": "zhangya_no1@qq.com"
+  "scripts": {
+    "test": "chutzpah.console.bat chutzpah.json"
   },
-  "main": "./index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/arthur-zhang/node-apk-parser"
+    "url": "git+https://github.com/MeltingMosaic/node-apk-parser.git"
   },
-  "scripts": {},
-  "dependencies": {
-    "adm-zip": "~0.4.4",
-    "debug": "~0.7.4"
-  },
-  "engines": {
-    "node": ">= 0.10.4"
-  },
-  "homepage": "https://github.com/arthur-zhang/node-apk-parser",
-  "_id": "node-apk-parser@0.2.0",
-  "_shasum": "22df85963838c2a4123b4a1695ade8a3831203ea",
-  "_from": "node-apk-parser@0.2.0",
-  "_npmVersion": "1.4.28",
-  "_npmUser": {
-    "name": "zhangya_no1",
-    "email": "zhangya_no1@qq.com"
-  },
-  "maintainers": [
-    {
-      "name": "zhangya_no1",
-      "email": "zhangya_no1@qq.com"
-    }
+  "keywords": [
+    "apk"
   ],
-  "dist": {
-    "shasum": "22df85963838c2a4123b4a1695ade8a3831203ea",
-    "tarball": "http://registry.npmjs.org/node-apk-parser/-/node-apk-parser-0.2.0.tgz"
+  "author": "Lee Chang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MeltingMosaic/node-apk-parser/issues"
   },
-  "directories": {},
-  "_resolved": "https://registry.npmjs.org/node-apk-parser/-/node-apk-parser-0.2.0.tgz",
-  "gitHead": "a15180d36639057ea373f298400233dd1506b591"
+  "homepage": "https://github.com/MeltingMosaic/node-apk-parser#readme",
+  "devDependencies": {
+    "chai": "^3.5.0"
+  },
+  "dependencies": {
+    "requirejs": "^2.3.2"
+  }
 }
