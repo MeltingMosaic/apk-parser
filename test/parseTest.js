@@ -18,6 +18,7 @@ define(["require", "node_modules/q/q", "./sampleManifest", "lib/apkreader/parser
                 var parser = new manifestParser(arrayBuffer);
                 var manifest = parser.parse();
                 console.log(manifest);
+                manifest.package.should.be.equal("com.microsoft.translator");
             }).then(function () {
                 done();
             }).catch(function(error){
