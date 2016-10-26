@@ -23,7 +23,8 @@
   },
   "homepage": "https://github.com/MeltingMosaic/node-apk-parser#readme",
   "devDependencies": {
-    "chai": "^3.5.0"
+    "chai": "^3.5.0",
+    "q": "^1.4.1"
   },
   "dependencies": {
     "requirejs": "^2.3.2"
